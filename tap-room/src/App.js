@@ -12,14 +12,33 @@ constructor(props) {
     showHomePage: true,
     kegList: [
       {
-        name: "",
-        brand: "",
-        price: "",
-        alcoholPercent: "",
+        name: "I'd Rather Be Smokin Cat Nip Pale Ale",
+        brand: "Princess Haru's Brewery",
+        image: ""
+        price: "$4.20",
+        alcoholPercent: "8%",
         inventory: 124,
         id: ""
       },
-      
+       {
+        name: "Your Dog Sucks Milk Stout",
+        brand: "Princess Haru's Brewery",
+        image: ""
+        price: "$4.20",
+        alcoholPercent: "8%",
+        inventory: 124,
+        id: ""
+      },
+      //   {
+      //   name: "Your Dog Sucks Milk Stout",
+      //   brand: "Princess Haru's Brewery",
+      //   image: ""
+      //   price: "$4.20",
+      //   alcoholPercent: "8%",
+      //   inventory: 124,
+      //   id: ""
+      // },
+
     ]
   }
 }
