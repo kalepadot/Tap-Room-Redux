@@ -2,7 +2,12 @@ body {
   /* text-align: center; */
   background-color: rgb(245, 242, 237);
 }
-
+h1 {
+  color:rgb(253, 226, 250);
+  font-size: 75px;
+  padding-top: 20px;
+  text-align: center;
+}
 .keg {
   text-align: center;
   width: 28%;
@@ -13,12 +18,12 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(234, 243, 255);
+  background-color: rgb(255, 240, 253);
   border-radius: 5px;
   box-shadow: 0 3px 3px #aaa;
 }
 .detailsHeader {
-  background-color: rgb(221, 235, 255);
+  background-color: rgb(255, 253, 254);
   height: 10%;
   display: flex;
   /* flex-direction: column;
@@ -94,7 +99,7 @@ body {
 }
 
 .header {
-  background-color: rgb(234, 243, 255);
+  background-color: rgb(252, 252, 252);
   height: 20vh;
   display: flex;
   flex-direction: column;
