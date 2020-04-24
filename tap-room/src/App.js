@@ -86,11 +86,65 @@ handleKegPurchase = (id) => {
     });
   }
 
+  handleKegDelete = id => {
+    const updateKegsList = this.state.kegList.filter(keg => keg.id !== id);
+    this.setState({
+      kegList: [...updateKegsList]
+    })
+  }
 
+  // handleShowShoppingCart = () => {   ///prob not going to do a shopping cart *come back to this later
+  //   this.setState({
+  //     showShoppingCart: !this.state.showShoppingCart
+  //   })
+  // }
 
+  // currentPage = () => {
+  //   if (this.state.showShoppingCart) {
+  //     return {
+  //       header: <MainHeader
+  //         onShowShoppingCart={this.handleShowShoppingCart}
+  //         cartItemNumber={this.state.shoppingCartItems.length}/>,
+  //       body: <ShoppingCart
+  //         albums={this.state.shoppingCartItems}/>
+  //     }
+  //   }
 
+  //  else if (this.state.showHomePage) {     //hmmmmmmmm ??? check this after first run
+  //     return {
+  //       header: <MainHeader 
+  //         onShowShoppingCart={this.handleShowShoppingCart}
+  //         cartItemNumber={this.state.shoppingCartItems.length}/>,
+  //       body: <MainAlbum 
+  //           albums={this.state.albumList}
+  //           onAlbumSelection={this.handleAlbumSelection}
+  //           onNewAlbumCreation={this.handleAddingNewAlbum}
+  //           handleAlbumDelete={this.handleAlbumDelete} />
+  //     }
+  //   }
+  //    else {
+  //     return {
+  //       header: <AlbumHeader 
+  //         album={this.state.currentSelectedAlbum}
+  //         handleBackToAlbums={this.handleBackToAlbums}/>,
+  //       body: <AlbumDetails 
+  //         album={this.state.currentSelectedAlbum}
+  //         onAlbumPurchase={this.handleAlbumPurchase}
+  //         onAlbumRestock={this.handleAlbumRestock}/>
+  //     }
+  //   }
+  //  };
 
-
+ render() {
+    let currentPage = this.currentPage();
+    return (
+      <React.Fragment>
+        {currentPage.header}
+        {currentPage.body}
+      </React.Fragment>
+    )
+  }
+}
 
 }
 
