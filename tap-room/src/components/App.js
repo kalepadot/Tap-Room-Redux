@@ -116,6 +116,7 @@ handleKegPurchase = (id) => {
         // header: <MainHeader 
           // onShowShoppingCart={this.handleShowShoppingCart}
           // cartItemNumber={this.state.shoppingCartItems.length}/>,
+        header: <KegHeader,
         body: <MainKeg
             kegs={this.state.kegList}
             onKegSelection={this.handleKegSelection}
