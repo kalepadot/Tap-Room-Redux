@@ -4,7 +4,7 @@
 #### A React application by *Jeremy Kale Padot*
 
 _Component Structure:_
-![component structure](/)
+![component structure](src/img/taproom2.png)
 
 ###### For macOS:
 _If Homebrew is not installed on your computer already, then install Homebrew by entering the following two commands in Terminal:_
