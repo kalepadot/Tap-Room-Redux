@@ -1,4 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Tap-Room
+
+#### React Fundamentals Epicodus Code Review. Friday, April 24th, 2020
+#### A React application by *Jeremy Kale Padot*
 
 ## Available Scripts
 
