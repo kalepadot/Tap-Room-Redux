@@ -21,7 +21,7 @@ function MainKeg(props){
     <React.Fragment>
       <div className="kegs">
         {props.kegs.map((keg, index) => (
-          <Album 
+          <Keg
             key={keg.id}
             name={keg.name}
             brand={keg.brand}

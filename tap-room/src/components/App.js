@@ -1,8 +1,9 @@
 import React from 'react';
-import KegHeader from './KebHeader/KegHeader';
-import KegDetails from './KegDetails/KegDetails';
-import MainKeg from './MainKegs/MainKeg';
-import './App.css';
+// import KegHeader from './KegHeader/KegHeader';
+// import KegDetails from './KegDetails/KegDetails';
+// import MainHeader from './MainHeader/MainHeader';
+// import MainKeg from './MainKegs/MainKeg';
+import '../App.css';
 
 class App extends React.Component {
 
@@ -47,12 +48,12 @@ handleKegSelection = (id) => {
   const selectedKeg = this.state.kegList.filter(keg => keg.id === id)[0];
   this.setState({
     currentSelectedKeg: selectedKeg,
-    showHomePage: False
+    showHomePage: false
   })
 }
 
 handleAddingNewKeg = (newKeg) => {
-  const newKeglist = this.state.kegList.concat(newKeg);
+  const newKegList = this.state.kegList.concat(newKeg);
   this.setState({kegList: newKegList})
 }
 
@@ -146,6 +147,6 @@ handleKegPurchase = (id) => {
   }
 }
 
-}
+
 
 export default App;

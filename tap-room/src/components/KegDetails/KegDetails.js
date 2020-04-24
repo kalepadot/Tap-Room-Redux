@@ -10,7 +10,7 @@ const KegDetails = (props) => {
   return (
     <div className="details" >
       <p>Details: {props.keg.price}</p>
-      <p>{probs.keg.alcoholPercent}</p>
+      <p>{props.keg.alcoholPercent}</p>
       <br />
       <div className="buttons">
         {hasInventory(props.keg.inventory)}
