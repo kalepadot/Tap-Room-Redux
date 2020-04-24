@@ -1,8 +1,8 @@
 import React from 'react';
-// import KegHeader from './KegHeader/KegHeader';
-// import KegDetails from './KegDetails/KegDetails';
-// import MainHeader from './MainHeader/MainHeader';
-// import MainKeg from './MainKegs/MainKeg';
+import KegHeader from './KegHeader/KegHeader';
+import KegDetails from './KegDetails/KegDetails';
+import MainHeader from './MainHeader/MainHeader';
+import MainKeg from './MainKegs/MainKeg';
 import '../App.css';
 
 class App extends React.Component {
@@ -100,7 +100,7 @@ handleKegPurchase = (id) => {
   //   })
   // }
 
-  // currentPage = () => {
+  currentPage = () => {
   //   if (this.state.showShoppingCart) {
   //     return {
   //       header: <MainHeader
@@ -111,30 +111,30 @@ handleKegPurchase = (id) => {
   //     }
   //   }
 
-  //  else if (this.state.showHomePage) {     //hmmmmmmmm ??? check this after first run
-  //     return {
-  //       header: <MainHeader 
-  //         onShowShoppingCart={this.handleShowShoppingCart}
-  //         cartItemNumber={this.state.shoppingCartItems.length}/>,
-  //       body: <MainAlbum 
-  //           albums={this.state.albumList}
-  //           onAlbumSelection={this.handleAlbumSelection}
-  //           onNewAlbumCreation={this.handleAddingNewAlbum}
-  //           handleAlbumDelete={this.handleAlbumDelete} />
-  //     }
-  //   }
-  //    else {
-  //     return {
-  //       header: <AlbumHeader 
-  //         album={this.state.currentSelectedAlbum}
-  //         handleBackToAlbums={this.handleBackToAlbums}/>,
-  //       body: <AlbumDetails 
-  //         album={this.state.currentSelectedAlbum}
-  //         onAlbumPurchase={this.handleAlbumPurchase}
-  //         onAlbumRestock={this.handleAlbumRestock}/>
-  //     }
-  //   }
-  //  };
+   if (this.state.showHomePage) {     //hmmmmmmmm ??? check this after first run
+      return {
+        // header: <MainHeader 
+          // onShowShoppingCart={this.handleShowShoppingCart}
+          // cartItemNumber={this.state.shoppingCartItems.length}/>,
+        body: <MainKeg
+            kegs={this.state.kegList}
+            onKegSelection={this.handleKegSelection}
+            onNewKegCreation={this.handleAddingNewKeg}
+            handleKegDelete={this.handleKegDelete} />
+      }
+    }
+     else{
+      return {
+        header: <KegHeader 
+          keg={this.state.currentSelectedKeg}
+          handleBackToKegs={this.handleBackToKegs}/>,
+        body: <KegDetails 
+          keg={this.state.currentSelectedKeg}
+          onKegPurchase={this.handleKegPurchase}
+          onKegRestock={this.handleKegRestock}/>
+      }
+     }
+   };
 
  render() {
     let currentPage = this.currentPage();

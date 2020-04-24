@@ -50,7 +50,7 @@ function MainKeg(props){
           placeholder="Link to Keg Image" />
           <input
           type="text"
-          name="kegPrice"
+          name="price"
           placeholder="How much is it?" />
           <input
           type="text"
