@@ -3,6 +3,9 @@ import KegHeader from './KegHeader/KegHeader';
 import KegDetails from './KegDetails/KegDetails';
 import MainHeader from './MainHeader/MainHeader';
 import MainKeg from './MainKegs/MainKeg';
+import BeerImage from '../img/420.gif';
+import FishImage from '../img/fish.gif';
+
 import '../App.css';
 
 class App extends React.Component {
@@ -15,7 +18,7 @@ constructor(props) {
       {
         name: "I'd Rather Be Smokin Cat Nip Pale Ale",
         brand: "Princess Haru's Brewery",
-        image: "",
+        image: BeerImage,
         price: "$4.20",
         alcoholPercent: "8%",
         inventory: 124,
@@ -24,7 +27,7 @@ constructor(props) {
        {
         name: "Your Dog Sucks Milk Stout",
         brand: "Princess Haru's Brewery",
-        image: "",
+        image: FishImage,
         price: "$4.20",
         alcoholPercent: "8%",
         inventory: 124,
