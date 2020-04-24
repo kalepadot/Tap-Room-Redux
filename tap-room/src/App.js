@@ -14,7 +14,7 @@ constructor(props) {
       {
         name: "I'd Rather Be Smokin Cat Nip Pale Ale",
         brand: "Princess Haru's Brewery",
-        image: ""
+        image: "",
         price: "$4.20",
         alcoholPercent: "8%",
         inventory: 124,
@@ -23,7 +23,7 @@ constructor(props) {
        {
         name: "Your Dog Sucks Milk Stout",
         brand: "Princess Haru's Brewery",
-        image: ""
+        image: "",
         price: "$4.20",
         alcoholPercent: "8%",
         inventory: 124,
