@@ -3,6 +3,37 @@
 #### React Fundamentals Epicodus Code Review. Friday, April 24th, 2020
 #### A React application by *Jeremy Kale Padot*
 
+_Component Structure:_
+![component structure](/)
+
+###### For macOS:
+_If Homebrew is not installed on your computer already, then install Homebrew by entering the following two commands in Terminal:_
+* $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+* $ echo 'export PATH=/usr/local/bin:$PATH' >> ~/.bash_profile
+
+_Install Git with the following command:_
+* $ brew install git
+
+_Next, install Node.js by entering the following command in Terminal:_
+* $ brew install node
+
+###### For Windows:
+_Please visit the [Node.js website](https://nodejs.org/en/download/) for installation instructions._
+
+#### Install this application
+
+_Clone this repository via Terminal using the following commands:_
+* _$ cd desktop_
+* _$ git clone {url to this repository}_
+* _$ cd music-shop
+_Then, confirm that you have navigated to the music-shop project directory by entering "pwd" in Terminal._
+
+_Next, install npm at the project's root directory via the following commands:_
+* _$ npm install_
+* _$ npm run build_
+
+_Open the contents of the directory in a text editor or IDE of your choice (e.g., to open the contents of the directory in Visual Studio Code on macOS, enter the command "code ." in Terminal)._
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -40,32 +71,16 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Technologies Used
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Git
+* JavaScript
+* npm
+* Webpack
+* React
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### License
 
-### Code Splitting
+*This webpage is licensed under the MIT license.*
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Copyright (c) 2020 **_Jeremy Kale Padot_**
