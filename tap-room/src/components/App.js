@@ -57,7 +57,7 @@ handleAddingNewKeg = (newKeg) => {
   this.setState({kegList: newKegList})
 }
 
-handleBackToAlbums = () => {
+handleBackToKegs = () => {
   this.setState({
     showHomePage: true
   })
@@ -116,7 +116,9 @@ handleKegPurchase = (id) => {
         // header: <MainHeader 
           // onShowShoppingCart={this.handleShowShoppingCart}
           // cartItemNumber={this.state.shoppingCartItems.length}/>,
-        header: <KegHeader,
+        header: <MainHeader
+        keg={this.state.currentSelectedKeg}
+        handleBackToKegs={this.handleBackToKegs}/>,
         body: <MainKeg
             kegs={this.state.kegList}
             onKegSelection={this.handleKegSelection}
