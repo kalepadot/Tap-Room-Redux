@@ -2,7 +2,7 @@
 
 #### React Fundamentals Epicodus Code Review. Friday, April 24th, 2020
 #### A React application by *Jeremy Kale Padot*
-![landing page preview](src/img/landingphoto2.png)
+![landing page preview](src/img/harubrewlanding.gif)
 _Component Structure:_
 ![component structure](src/img/taproom2.png)
 
@@ -78,6 +78,9 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 * npm
 * Webpack
 * React
+* mrsquiggles
+* Affinity Designer
+* Illustrator
 
 ### License
 

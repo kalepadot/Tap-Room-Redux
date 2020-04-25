@@ -6,7 +6,7 @@ const KegHeader = (props) => {
     <div className="detailsHeader">
       <div className="columns">
         <div className="column1">
-          <img className="kegetailsImg" src={props.keg.image} alt=""/>
+          <img className="kegDetailsImg" src={props.keg.image} alt=""/>
         </div>
         <div className="column2">
           <h1>{props.keg.name} by <em>{props.keg.brand}</em></h1>

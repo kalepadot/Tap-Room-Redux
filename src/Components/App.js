@@ -5,6 +5,7 @@ import MainHeader from './MainHeader/MainHeader';
 import MainKeg from './MainKegs/MainKeg';
 import BeerImage from '../img/420.gif';
 import FishImage from '../img/fish.gif';
+import Woof from '../img/woof.gif';
 
 import '../App.css';
 
@@ -32,16 +33,16 @@ constructor(props) {
         alcoholPercent: "8%",
         inventory: 124,
         id: "667"
-      } //you might need to put a comma here if you dont open up that other beer
-      //   {
-      //   name: "Your Dog Sucks Milk Stout",
-      //   brand: "Princess Haru's Brewery",
-      //   image: ""
-      //   price: "$4.20",
-      //   alcoholPercent: "8%",
-      //   inventory: 124,
-      //   id: ""
-      // },
+      }, //you might need to put a comma here if you dont open up that other beer
+        {
+        name: "No Dogs No Masters Lager",
+        brand: "Princess Haru's Brewery",
+        image: Woof,
+        price: "$4.20",
+        alcoholPercent: "666%",
+        inventory: 124,
+        id: "668"
+      },
 
     ],
     currentSelectedKeg: {},
