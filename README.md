@@ -2,7 +2,7 @@
 
 #### React Fundamentals Epicodus Code Review. Friday, April 24th, 2020
 #### A React application by *Jeremy Kale Padot*
-![landing page preview](src/img/harubrewlanding.gif)
+![landing page preview](src/img/screenshot2.png)
 _Component Structure:_
 ![component structure](src/img/taproom2.png)
 
