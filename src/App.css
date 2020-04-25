@@ -1,6 +1,9 @@
 body {
-  /* text-align: center; */
+  /* t1xt-align: center; */
   background-color: rgb(245, 242, 237);
+  background-image: url(./img/harubrewbg2.png);
+  /* background-size: contain; */
+  background-size: 980px 700px;
 }
 h1 {
   color:rgb(253, 226, 250);
@@ -99,7 +102,9 @@ h1 {
 }
 
 .header {
-  background-color: rgb(252, 252, 252);
+  /* background-color: rgb(252, 252, 252); */
+  background-image: url(./img/harubrewbg2.png);
+  background-size: 1000px 640px;
   height: 20vh;
   display: flex;
   flex-direction: column;
