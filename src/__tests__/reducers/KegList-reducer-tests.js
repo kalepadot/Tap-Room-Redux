@@ -3,6 +3,7 @@ import KegListReducer from '../../reducers/KegList-reducer';
 describe('KegListReducer', () => {
 
 let action;
+
 const kegData = {
   name: "I'd Rather Be Smokin Cat Nip Pale Ale",
   brand: "Princess Haru's Brewery",
@@ -15,7 +16,7 @@ const kegData = {
   test('Should return default state if there is no action type passed into the reducer', () => {
     expect(KegListReducer({}, {type: null})).toEqual({});
   });
-});
+
 
   test('Should successfully add new keg data to MasterKegList', () => {
     const { name, brand, price, alcoholPercent, inventory, id } = kegData;
@@ -26,15 +27,17 @@ const kegData = {
       price: price,
       inventory: inventory,
       id: id
-    };
+    }
     
-    expect(ticketListReducer({}, action)).toEqual({
+    expect(KegListReducer({}, action)).toEqual({
       [id] : {
         name: name,
         brand: brand,
         price: price,
+        alcoholPercent: alcoholPercent,
         inventory: inventory,
         id: id
-      }
+        }
+      });
     });
   });
