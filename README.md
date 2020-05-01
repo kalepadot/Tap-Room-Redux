@@ -1,4 +1,4 @@
-# Tap-Room
+# Tap-Room Redux
 
 #### React Fundamentals Epicodus Code Review. Friday, April 24th, 2020
 #### A React application by *Jeremy Kale Padot*
